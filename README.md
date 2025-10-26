@@ -15,51 +15,41 @@
 <br><br>
 ## 📸 How it looks?
 
-### 1. The Complete System
+### 1. Maze Construction
+
 <div align="center">
-
-  <img src="images/complete.png" alt="Completed Computer Image Demo" width="500"/>
-
-*The fully assembled 8-bit breadboard computer*
-
+  <img src="assets/maze_construction.gif" width="600" />
+  
+  *Animated random maze construction.*
 </div>
 
 
-### 2. Component Close-ups
+### 2. Maze Solution
 
-<table width="100%" style="border-collapse: collapse;">
+<table width="100%" style="border-collapse: collapse;" align="center">
   <tr>
     <td width="33.33%" align="center" style="padding: 20px; border: 1px solid #e1e4e8; vertical-align: top; width: 300px; height: 350px;">
-      <h3 style="font-size: 1.4em; margin: 0 0 20px 0;"> ALU Unit</h3>
-      <img src="images/alu.png" alt="ALU Image Demo" width="250" style="border-radius: 8px;"/><br>
-      <p style="margin: 15px 0 0 0;"><em>ALU able to add and subtract.</em></p>
+      <h3 style="font-size: 1.4em; margin: 0 0 20px 0;">15 x 15</h3>
+      <img src="assets/15x15maze.png" alt="ALU Image Demo" width="250" style="border-radius: 8px;"/><br>
+      <p style="margin: 15px 0 0 0;"></p>
     </td>
     <td width="33.33%" align="center" style="padding: 20px; border: 1px solid #e1e4e8; vertical-align: top; width: 300px; height: 350px;">
-      <h3 style="font-size: 1.4em; margin: 0 0 20px 0;"> Clock</h3>
-      <img src="images/clock.png" alt="Clock Image Demo" width="250" style="border-radius: 8px;"/><br>
-      <p style="margin: 15px 0 0 0;"><em>Adjustable-speed clock module with a manual mode.</em></p>
-    </td>
-    <td width="33.33%" align="center" style="padding: 20px; border: 1px solid #e1e4e8; vertical-align: top; width: 300px; height: 350px;">
-      <h3 style="font-size: 1.4em; margin: 0 0 20px 0;"> Registers</h3>
-      <img src="images/register.png" alt="Registers Image Demo" width="250" style="border-radius: 8px;"/><br>
-      <p style="margin: 15px 0 0 0;"><em>Three 8-bit registers: A, B, and IR.</em></p>
+      <h3 style="font-size: 1.4em; margin: 0 0 20px 0;">15 x 15 solution</h3>
+      <img src="assets/15x15maze-with-solution.png" alt="ALU Image Demo" width="250" style="border-radius: 8px;"/><br>
+      <p style="margin: 15px 0 0 0;"></p>
     </td>
   </tr>
+  
   <tr>
     <td width="33.33%" align="center" style="padding: 20px; border: 1px solid #e1e4e8; vertical-align: top; width: 300px; height: 350px;">
-      <h3 style="font-size: 1.4em; margin: 0 0 20px 0;"> RAM</h3>
-      <img src="images/ram.png" alt="RAM Image Demo" width="250" style="border-radius: 8px;"/><br>
-      <p style="margin: 15px 0 0 0;"><em>16 bytes of RAM with 4-bit addresses.</em></p>
+      <h3 style="font-size: 1.4em; margin: 0 0 20px 0;">25 x 25</h3>
+      <img src="assets/25x25maze.png" alt="ALU Image Demo" width="250" style="border-radius: 8px;"/><br>
+      <p style="margin: 15px 0 0 0;"></p>
     </td>
     <td width="33.33%" align="center" style="padding: 20px; border: 1px solid #e1e4e8; vertical-align: top; width: 300px; height: 350px;">
-      <h3 style="font-size: 1.4em; margin: 0 0 20px 0;"> Program Counter</h3>
-      <img src="images/program-counter.png" alt="Program Counter Image Demo" width="250" style="border-radius: 8px;"/><br>
-      <p style="margin: 15px 0 0 0;"><em>PC keeps track of currently executing instructions.</em></p>
-    </td>
-    <td width="33.33%" align="center" style="padding: 20px; border: 1px solid #e1e4e8; vertical-align: top; width: 300px; height: 350px;">
-      <h3 style="font-size: 1.4em; margin: 0 0 20px 0;"> Control Unit</h3>
-      <img src="images/control.png" alt="Control Unit Image Demo" width="250" style="border-radius: 8px;"/><br>
-      <p style="margin: 15px 0 0 0;"><em>Instruction decoding and execution logic.</em></p>
+      <h3 style="font-size: 1.4em; margin: 0 0 20px 0;">25 x 25 solution</h3>
+      <img src="assets/25x25maze-with-solution.png" alt="ALU Image Demo" width="250" style="border-radius: 8px;"/><br>
+      <p style="margin: 15px 0 0 0;"></p>
     </td>
   </tr>
 </table>
